@@ -1,13 +1,13 @@
-# Data Structures and Algorithms
+# Data Structures, Algorithms and Object-Oriented Programming
 
-A structured, progressive implementation of core Data Structures and Algorithms in C++.  
-Each topic builds directly upon the previous, forming a complete learning path — from mathematical fundamentals to advanced algorithmic problem solving.
+A structured, progressive implementation of Data Structures, Algorithms, and Object-Oriented Programming concepts in C++.  
+The repository covers two parallel tracks — a complete DSA learning path progressing from mathematical fundamentals to advanced algorithmic problem solving, alongside a thorough study of OOP from core principles to design patterns and lifecycle management.
 
 ---
 
-## Learning Roadmap
+## DSA Learning Roadmap
 
-The flowchart below represents the complete learning path followed in this repository, progressing through 18 well-defined steps across foundational, intermediate, and advanced topics.
+The flowchart below represents the complete DSA learning path followed in this repository, progressing through 18 well-defined steps across foundational, intermediate, and advanced topics.
 
 ```mermaid
 flowchart TD
@@ -73,7 +73,63 @@ flowchart TD
 
 ---
 
-## Topics at a Glance
+## Object-Oriented Programming Roadmap
+
+The flowchart below represents the complete OOP learning path covered in this repository, progressing through 6 modules from foundational class concepts to advanced design and lifecycle management.
+
+```mermaid
+flowchart TD
+    OSTART([Start]) --> O1
+
+    subgraph OP1 ["Module I — Introduction"]
+        direction TB
+        O1["Introduction to OOP\nClasses · Objects · Methods · Constructors · Destructors"]
+    end
+
+    subgraph OP2 ["Module II — Core Principles"]
+        direction TB
+        O2["Core Principles of OOP\nEncapsulation · Abstraction · Inheritance · Polymorphism"]
+    end
+
+    subgraph OP3 ["Module III — Advanced Features"]
+        direction TB
+        O3["Advance OOP Features\nOperator Overloading · Function Overloading · Virtual Functions\nAbstract Classes · Interfaces · Templates"]
+    end
+
+    subgraph OP4 ["Module IV — Relationships and Behaviour"]
+        direction TB
+        O4["Relationships and Object Behaviour\nAssociation · Aggregation · Composition\nFriend Functions · Static Members · this Pointer"]
+    end
+
+    subgraph OP5 ["Module V — Advance Programming"]
+        direction TB
+        O5["Advance Programming in OOP\nException Handling · File I/O · Namespaces\nSTL Integration · Smart Pointers · Move Semantics"]
+    end
+
+    subgraph OP6 ["Module VI — Design and Lifecycle"]
+        direction TB
+        O6["OOP Design and Lifecycle Management\nDesign Principles · SOLID · Design Patterns\nMemory Management · Object Lifecycle"]
+    end
+
+    OSTART --> O1 --> O2 --> O3 --> O4 --> O5 --> O6 --> OEND([Complete])
+```
+
+---
+
+## OOP Topics at a Glance
+
+| Module | Topic | Key Concepts |
+|--------|-------|--------------|
+| 1 | Introduction to OOP | Classes, objects, methods, constructors, destructors, access specifiers |
+| 2 | Core Principles of OOP | Encapsulation, abstraction, inheritance (single/multi/hierarchical), polymorphism |
+| 3 | Advance OOP Features | Operator overloading, function overloading, virtual functions, abstract classes, templates |
+| 4 | Relationships and Object Behaviour | Association, aggregation, composition, friend functions, static members, `this` pointer |
+| 5 | Advance Programming in OOP | Exception handling, file I/O, namespaces, STL integration, smart pointers, move semantics |
+| 6 | OOP Design and Lifecycle Management | SOLID principles, design patterns (creational/structural/behavioural), memory management |
+
+---
+
+## DSA Topics at a Glance
 
 | Step | Topic | Key Concepts |
 |------|-------|--------------|
@@ -119,7 +175,8 @@ DSA/
 ├── 15. Graphs/
 ├── 16. Dynamic Programming/
 ├── 17. Tries/
-└── 18. Advanced Strings/
+├── 18. Advanced Strings/
+└── Object Oriented Programming/
 ```
 
 ---
@@ -155,12 +212,21 @@ g++ filename.cpp -o "$env:TEMP\output" ; & "$env:TEMP\output"
 
 ## Current Progress
 
+### Data Structures and Algorithms
+
 | Step | Topic | Status |
 |------|-------|--------|
 | 1 | Basics | In Progress |
 | 2 | Sorting | In Progress |
 | 3 | Arrays | In Progress |
 | 4 — 18 | Binary Search through Advanced Strings | Upcoming |
+
+### Object-Oriented Programming
+
+| Module | Topic | Status |
+|--------|-------|--------|
+| 1 | Introduction to OOP | In Progress |
+| 2 — 6 | Core Principles through Design and Lifecycle | Upcoming |
 
 ---
 
