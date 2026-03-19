@@ -9,6 +9,7 @@ class Node{
         this->next=NULL;
     }
 };
+
 int length(Node* head){
     int count=0;
     while(head!=NULL){
@@ -17,6 +18,7 @@ int length(Node* head){
     }
     return count;
 }
+
 Node* intersection(Node* head1,Node* head2){
     int l1=length(head1);
     int l2=length(head2);
